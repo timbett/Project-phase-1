@@ -1,0 +1,51 @@
+{
+  "tms": [
+    {
+      "name": "Koech",
+      "id": 1
+    },
+    {
+      "name": "Brian",
+      "id": 2
+    },
+    {
+      "name": "Albert",
+      "id": 3
+    },
+    {
+      "name": "Dan",
+      "id": 4
+    },
+    {
+      "name": "Kibet",
+      "id": 5
+    },
+    {
+      "name": "Chep",
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "owner": "Timothy Komen",
+      "question": "What is htmi",
+      "tm": "Koech"
+    },
+    {
+      "id": 2,
+      "owner": "Larry ",
+      "question": "What is CSS",
+      "tm": "Dan"
+    }
+  ]
+}
