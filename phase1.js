@@ -37,7 +37,18 @@ form.addEventListener('submit', function(e){
     assignee.innerHTML = `Assigned To: ${data.tm}`
     dataContainer.append(owner)
     dataContainer.append(assignee)
-    leftContainer.append(dataContainer) 
+    leftContainer.append(dataContainer)
+    var button = createNode('button')
+    button.classList.add('remove-btn')
+    button.innerHTML = 'Archive'
+    button.addEventListener('click', (e) => {
+        e.preventDefault()
+        fetch(`${url}/${question.id}`, {
+            method: 'DELETE'
+        }).then((res) => res.json)
+          .then((data) => {alert('Question has been archived'); leftContainer.removeChild(dataContainer)})
+    })
+    dataContainer.append(button)
 
     }).catch(error => console.error('Error:', error)); 
 });
@@ -51,7 +62,7 @@ function append(parent, el){
 }
 
 var leftContainer = document.getElementById('left-container')
-window.onload = function red_flags(){
+window.onload = function query(){
 
 fetch(url,{
     method: 'GET',
@@ -64,11 +75,23 @@ fetch(url,{
                 dataContainer.classList.add("query-container")
                 var owner = createNode('p')
                 var assignee = createNode('p')
+                var button = createNode('button')
+                button.classList.add('remove-btn')
+                button.innerHTML = 'Archive'
                 owner.innerHTML = `Question Owner: ${question.owner}`
                 assignee.innerHTML = `Assigned To: ${question.tm}`
                 dataContainer.append(owner)
                 dataContainer.append(assignee)
-                leftContainer.append(dataContainer) 
+                dataContainer.append(button)
+                leftContainer.append(dataContainer)
+                button.addEventListener('click', (e) => {
+                    e.preventDefault()
+                    fetch(`${url}/${question.id}`, {
+                        method: 'DELETE'
+                    }).then((res) => res.json)
+                      .then((data) => {alert('Question has been archived'); leftContainer.removeChild(dataContainer)})
+                })
+
              })
 
         })
