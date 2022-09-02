@@ -43,16 +43,16 @@ body{
     border: unset;
     border: 2px solid #e0e0d1;
     border-radius: 10px;
-    color: #a6a6a6;
+    color: black;
     background-color: white;
 }
 label{
     margin-left: 10px;
-    color: #a6a6a6;
+    color: black;
 }
 .form-header {
     font-size: 25px;
-    color: white;
+    color: black;
     font-weight: bold;
     margin-left: 10px;
 }
