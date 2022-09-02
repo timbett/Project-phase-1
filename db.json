@@ -27,163 +27,46 @@
   ],
   "questions": [
     {
-      "id": 1,
-      "owner": "Timothy Komen",
-      "question": "What is htmi",
-      "tm": "Koech"
+      "owner": "Timothy",
+      "table": "table3",
+      "question": "  Sample questions",
+      "tm": "Gillian Chep",
+      "id": 1
     },
     {
-      "id": 2,
-      "owner": "Larry ",
-      "question": "What is CSS",
-      "tm": "Dan"
+      "owner": "Timothy",
+      "table": "table3",
+      "question": "  Sample questions",
+      "tm": "Gillian Chep",
+      "id": 1
     },
     {
-      "owner": "Emanuel Odipo",
-      "question": "I got a question",
-      "tm": "Mai",
+      "owner": "cojjjsj",
+      "table": "table3",
+      "question": "                Timothy",
+      "tm": "Tim Karani",
+      "id": 2
+    },
+    {
+      "owner": "Opiyo",
+      "table": "table2",
+      "question": "         6777494994       ",
+      "tm": "Koech Walui",
       "id": 3
     },
     {
-      "owner": "Peter wasike",
-      "question": "How kamu",
-      "tm": "Pointer",
+      "owner": "ce",
+      "table": "table4",
+      "question": "          vv      ",
+      "tm": "Lydia Muthoni",
       "id": 4
     },
     {
+      "owner": "",
+      "table": "table1",
+      "question": "                ",
+      "tm": "Tim Karani",
       "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "id": 23
-    },
-    {
-      "id": 24
-    },
-    {
-      "id": 25
-    },
-    {
-      "id": 26
-    },
-    {
-      "id": 27
-    },
-    {
-      "id": 28
-    },
-    {
-      "id": 29
-    },
-    {
-      "id": 30
-    },
-    {
-      "id": 31
-    },
-    {
-      "id": 32
-    },
-    {
-      "id": 33
-    },
-    {
-      "id": 34
-    },
-    {
-      "id": 35
-    },
-    {
-      "id": 36
-    },
-    {
-      "id": 37
-    },
-    {
-      "id": 38
-    },
-    {
-      "id": 39
-    },
-    {
-      "id": 40
-    },
-    {
-      "id": 41
-    },
-    {
-      "id": 42
-    },
-    {
-      "id": 43
-    },
-    {
-      "id": 44
-    },
-    {
-      "id": 45
-    },
-    {
-      "id": 46
-    },
-    {
-      "id": 47
-    },
-    {
-      "id": 48
-    },
-    {
-      "id": 49
     }
   ]
 }

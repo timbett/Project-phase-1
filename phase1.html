@@ -13,45 +13,26 @@
 <body>
     <div class="main-container">
         <div class="right-container">
-            <form method="POST" class="question-form" id="q-form" enctype="multipart/form-data">
+            <form method="post" class="question-form" id="q-form" onsubmit="return false">
                 <h1 class="form-header">Fill the form to ask a question</h1>
                 <label for="student-name">Student Name</label>
-                <input type="text" id="student-name" class=" input student-name">
-                </input>
-
+                <input type="text" id="student-name" class=" input student-name"/>
                 <label for="table">Table Number</label>
-                <select name="table" id="table" class=" input student-table">
+                <select name="table" id="table" class="input student-table">
                     <option value="table1">Table1</option>
                     <option value="table2">Table2</option>
                     <option value="table3">Table3</option>
                     <option value="table4">Table4</option>
                 </select>
                 <label for="student-question">Question</label>
-                <textarea type="text-area" id="student-question" class=" input student-question" rows="4">
+                <textarea type="text-area" id="student-question" class="input student-question" rows="4">
                 </textarea>
-                <button class="btn" type="submit" onclick="submitQuestion()">Submit Question</button>
+                <input class="btn" type="submit"/>
             </form>
 
         </div>
-        <div class="left-container">
+        <div class="left-container" id="left-container">
             <h1 class="form-header">Question Order</h1>
-           <div class="query-container">
-              <p>Question Owner: Larry Karani</p>
-               <p>Assigned To: Joseph Odipo</p>
-               <p>Estimated response Time: 10: 30pm</p>
-           </div>
-
-           <div class="query-container">
-            <p>Question Owner: Larry Karani</p>
-             <p>Assigned To: Joseph Odipo</p>
-             <p>Estimated response Time: 10: 30pm</p>
-         </div>
-
-         <div class="query-container">
-            <p>Question Owner: Larry Karani</p>
-             <p>Assigned To: Joseph Odipo</p>
-             <p>Estimated response Time: 10: 30pm</p>
-         </div>
         </div>
     </div>
     <script src="phase1.js"></script>
